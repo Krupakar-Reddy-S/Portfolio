@@ -1,0 +1,63 @@
+#about {
+    padding: 15vh 0 0 0;
+    width: 50vw;
+    text-align: left;
+    color: var(--grey-dark);
+}   
+
+.about-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    height: 45vh;
+    border-radius: var(--radius);
+}
+
+.about-card img {
+    border-radius: 50%;
+    width: 10vw;
+    height: 10vw;
+    margin-right: 1vw;
+}
+
+.about-card-content {
+    text-align: left;
+    margin-left: 4vw;
+}
+
+.about-card-content h {
+    color: var(--grey-dark);
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.about-card-content p {
+    color: var(--grey-dark);
+    font-size: 1rem;
+}
+
+.text-description {
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    font-size: 1rem;
+    font-weight: 500;
+    color: var(--grey-light);
+}
+
+.about-card-content button {
+    margin: 1vh 1vh 1vh 0;
+    padding: 10px 20px;
+    color: white;
+    border: none;
+    border-radius: var(--radius);
+    cursor: pointer;
+}
+
+.button-download {
+    background-color: #01C853;
+}
+
+.button-contact {
+    background-color: #2879FF;
+}
