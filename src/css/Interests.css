@@ -1,0 +1,36 @@
+#interests {
+    padding: 10vh 0 0 0;
+    width: 50vw;
+    text-align: left;
+    color: var(--grey-dark);
+}
+
+.interests-cards {
+    display: flex;
+    justify-content: space-between;
+    gap: 1vw;
+    flex-wrap: wrap;
+}
+
+.interests-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: white;
+    border-radius: var(--radius);
+    height: 6vw;
+    width: 6vw;
+    padding: 0.5vw;
+    text-align: center;
+}
+
+.interests-card h3 {
+    margin: 10px 0 0;
+    font-size: 16px;
+}
+
+.interest-icon {
+    font-size: 2vw;
+    display: block;
+    margin-bottom: 1vh;
+}
