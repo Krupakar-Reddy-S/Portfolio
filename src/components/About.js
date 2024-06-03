@@ -10,13 +10,13 @@ function About() {
             <h2 className='text-description'>Developer • Adventurer • Learner</h2>
             <button className='button-download'>DOWNLOAD RESUME</button>
             <button className='button-contact' onClick={() => window.location.href = '#contact'}>CONTACT</button>
-            <p>👨👨‍🎓 Experience Level: 2 years in Computer Science</p>
             <p>💻 I'm Currently studying at Scaler School of Technology 🚀</p>
+            <p>👨👨‍🎓 Experience Level: 2 years in Computer Science</p>
             <p>🧩 Interested In: Technology, Science and Life!</p>
             <p>💡 Equipments: Python, Java, JS, SQL, Linux</p>
-            <p>⚡ Fun Fact: Linux >>> Windows </p>
             <p>📚 Learninng: DSA and Development</p>
             <p>💡 Exploring AI developments</p>
+            <p>⚡ Fun Fact: Linux >>> Windows </p>
           </div>
         </div>
       </div>
