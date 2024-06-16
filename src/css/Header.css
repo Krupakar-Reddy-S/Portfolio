@@ -70,4 +70,5 @@
 .menu-icon, .more-icon {
     color: var(--grey-dark);
     font-size: 1.4rem;
+    cursor: pointer;
 }

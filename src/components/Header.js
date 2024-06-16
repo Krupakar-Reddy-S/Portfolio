@@ -1,9 +1,11 @@
 import '../css/Header.css';
 
-function Header() {
+function Header({ toggleSidebar }) {
     return (
         <header className='header'>
-            <div className='menu-icon'><i class="zmdi zmdi-menu zmdi-hc-1g"></i></div>
+            <div className='menu-icon' onClick={toggleSidebar}>
+                <i className="zmdi zmdi-menu zmdi-hc-1g"></i>
+            </div>
             <p>Krupakar Reddy</p>
             <div id='spacer'></div>
             <nav>
@@ -15,7 +17,7 @@ function Header() {
                     <li><div><a href="#contact">Contact</a></div></li>
                 </ul>
             </nav>
-            <div className='more-icon'><i class="zmdi zmdi-more-vert"></i></div>
+            <div className='more-icon'><i className="zmdi zmdi-more-vert"></i></div>
         </header>
     );
 }

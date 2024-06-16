@@ -6,8 +6,16 @@ import Interests from './components/Interests';
 import Project from './components/Projects';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
+import Sidebar from './components/Sidebar';
+import { useState } from 'react';
 
 function App() {
+  const [isSidebarVisible, setIsSidebarVisible] = useState(false);
+
+  const toggleSidebar = () => {
+    setIsSidebarVisible(!isSidebarVisible);
+  };
+
   const projects = [
     {
       image: 'https://opengraph.githubassets.com/8396179/Krupakar-Reddy-S/Image-Editor-Terminal',
@@ -55,8 +63,9 @@ function App() {
 
   return (
     <div className='App'>
-      {/* <div className='image'></div> */}
-      <Header />
+      <div className='background-image'></div>
+      <Header toggleSidebar={toggleSidebar} />
+      <Sidebar isVisible={isSidebarVisible} toggleSidebar={toggleSidebar} />
       <About />
       <Portfolio />
       <Interests />
